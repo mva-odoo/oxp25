@@ -1,0 +1,100 @@
+<odoo>
+    <record id="furniture_0" model="furniture">
+        <field name="name">Table</field>
+        <field name="image" type="base64" file="my_furniture_data/static/img/table.jpg"/>
+        <field name="description" type="html">
+<div>
+    <h2 id="tabletop-heading">Tabletop</h2>
+      <dl>
+        <dt>Shape</dt>
+        <dd>Rectangular (e.g., <code>120 cm × 80 cm</code>).</dd>
+
+        <dt>Material</dt>
+        <dd>Solid wood, laminated board, or glass depending on the style.</dd>
+
+        <dt>Thickness</dt>
+        <dd>Approximately 2–4 cm.</dd>
+      </dl>
+    <h2 id="styles-heading">Possible Styles</h2>
+      <ul class="styles">
+        <li><strong>Scandinavian</strong> — light wood, clean lines.</li>
+        <li><strong>Industrial</strong> — black metal frame with raw wood.</li>
+        <li><strong>Classic</strong> — dark wood with carved legs.</li>
+      </ul>
+</div></field>
+        </record>
+
+    <record id="furniture_1" model="furniture">
+        <field name="name">Chair</field>
+        <field name="image" type="base64" file="my_furniture_data/static/img/chair.jpg"/>
+        <field name="description" type="html">
+<div>
+    <h2 id="tabletop-heading">Chair</h2>
+      <dl>
+        <dt>Shape</dt>
+        <dd>Rectangular (e.g., <code>120 cm × 80 cm</code>).</dd>
+
+        <dt>Material</dt>
+        <dd>Solid wood, laminated board, or glass depending on the style.</dd>
+
+        <dt>Thickness</dt>
+        <dd>Approximately 2–4 cm.</dd>
+      </dl>
+    <h2 id="styles-heading">Possible Styles</h2>
+      <ul class="styles">
+        <li><strong>Scandinavian</strong> — light wood, clean lines.</li>
+        <li><strong>Industrial</strong> — black metal frame with raw wood.</li>
+        <li><strong>Classic</strong> — dark wood with carved legs.</li>
+      </ul>
+</div></field>
+        </record>
+        <record id="furniture_3" model="furniture">
+            <field name="name">Sofa</field>
+            <field name="image" type="base64" file="my_furniture_data/static/img/sofa.jpg"/>
+            <field name="description" type="html">
+<div>
+    <h2 id="tabletop-heading">Chair</h2>
+      <dl>
+        <dt>Shape</dt>
+        <dd>Rectangular (e.g., <code>120 cm × 80 cm</code>).</dd>
+
+        <dt>Material</dt>
+        <dd>Solid wood, laminated board, or glass depending on the style.</dd>
+
+        <dt>Thickness</dt>
+        <dd>Approximately 2–4 cm.</dd>
+      </dl>
+    <h2 id="styles-heading">Possible Styles</h2>
+      <ul class="styles">
+        <li><strong>Scandinavian</strong> — light wood, clean lines.</li>
+        <li><strong>Industrial</strong> — black metal frame with raw wood.</li>
+        <li><strong>Classic</strong> — dark wood with carved legs.</li>
+      </ul>
+</div></field>
+        </record>
+        <record id="furniture_4" model="furniture">
+            <field name="name">Cupboard</field>
+            <field name="image" type="base64" file="my_furniture_data/static/img/sofa.jpg"/>
+            <field name="description" type="html">
+<div>
+    <h2 id="tabletop-heading">Cupboard</h2>
+      <dl>
+        <dt>Shape</dt>
+        <dd>Rectangular (e.g., <code>120 cm × 80 cm</code>).</dd>
+
+        <dt>Material</dt>
+        <dd>Solid wood, laminated board, or glass depending on the style.</dd>
+
+        <dt>Thickness</dt>
+        <dd>Approximately 2–4 cm.</dd>
+      </dl>
+    <h2 id="styles-heading">Possible Styles</h2>
+      <ul class="styles">
+        <li><strong>Scandinavian</strong> — light wood, clean lines.</li>
+        <li><strong>Industrial</strong> — black metal frame with raw wood.</li>
+        <li><strong>Classic</strong> — dark wood with carved legs.</li>
+      </ul>
+</div></field>
+        </record>
+
+</odoo>

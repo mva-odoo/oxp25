@@ -1,0 +1,68 @@
+<odoo>
+    <record id="furniture_form" model="ir.ui.view">
+        <field name="name">furniture.form</field>
+        <field name="model">furniture</field>
+        <field name="arch" type="xml">
+            <form string="Furniture">
+                <sheet name="furniture_form">
+                    <field name="image" widget="image" class="oe_avatar" options="{'convert_to_webp': True}"/>
+                    <div class="oe_title">
+                        <label for="name" string="Furniture"/>
+                        <h1>
+                            <div class="d-flex">
+                                <field class="text-break" name="name" options="{'line_breaks': False}" widget="text" placeholder="e.g. Table"/>
+                            </div>
+                        </h1>
+                    </div>
+                    <notebook>
+                        <page>
+                            <field name="description" />
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="furniture_kanban" model="ir.ui.view">
+        <field name="name">furniture.kanban</field>
+        <field name="model">furniture</field>
+        <field name="arch" type="xml">
+            <kanban sample="1">
+                <field name="name"/>
+                <templates>
+                    <t t-name="card" class="flex-row">
+                        <main class="pe-2">
+                            <div class="mb-1">
+                                <div class="d-flex mb-0 h5">
+                                    <field name="name"/>
+                                </div>
+                            </div>
+                        </main>
+                        <aside>
+                            <field name="image" widget="image" alt="Product" options="{'img_class': 'w-100 object-fit-contain'}"/>
+                        </aside>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="action_furniture" model="ir.actions.act_window">
+        <field name="name">Furniture</field>
+        <field name="res_model">furniture</field>
+        <field name="view_mode">kanban,list,form</field>
+    </record>
+
+    <menuitem 
+        name="Furnitures"
+        id="menu_furniture_root"
+        web_icon="my_furniture,static/description/icon.png"/>
+
+    <menuitem
+        name="Furnitures"
+        id="menu_furniture_sub"
+        parent="menu_furniture_root"
+        action="action_furniture"/>
+
+</odoo>
